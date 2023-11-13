@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adjetivos Descriptivos</title>
+<style>
+        /* Agregamos estilos para la marquee */
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            background: linear-gradient(45deg, #ff7300, #eaecc6);
+            color: #000;
+            padding: 10px;
+        }
+
+        .marquee {
+            display: inline-block;
+            padding-left: 100%;
+            animation: bounce 10s linear infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateX(0);
+            }
+
+            50% {
+                transform: translateX(-50%);
+            }
+        }
+
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #3498db;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.example {
+    margin-top: 20px;
+}
+
+.example ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.example li {
+    margin-bottom: 10px;
+}
+
+#quiz-form {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 18px;
+    }
+
+    section {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .example li {
+        margin-bottom: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+/* Agregamos estilos para el área de imágenes */
+.imagen {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #267bbf;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen img:hover {
+    transform: scale(1.05);
+}
+
+/* Agrega estos estilos al final de tu archivo CSS */
+
+#comments {
+    margin: 20px 0;
+}
+
+#comment-list {
+    margin-bottom: 15px;
+}
+
+#new-comment {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Agrega estos estilos al final de tu archivo CSS */
+
+#user-name,
+#new-comment {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Descubriendo Adjetivos Descriptivos</h1>
+    </header>
+
+    <div class="marquee-container">
+        <div class="marquee">Expresividad</div>
+    </div>
+
+    <section id="introduction">
+        <h2>Introducción</h2>
+        <p>Los adjetivos descriptivos, también llamados adjetivos calificativos, son palabras que elevan la riqueza del lenguaje al proporcionar detalles y cualidades a los sustantivos. Estos adjetivos no solo califican, sino que también pintan imágenes vívidas en la mente del lector o oyente, enriqueciendo la comunicación y haciendo que la expresión sea más impactante.</p>
+
+        <p>Algunas características esenciales de los adjetivos descriptivos son:</p>
+        
+        <ul>
+            <li><strong>Calificación:</strong> Añaden información que califica o caracteriza al sustantivo. Por ejemplo, en la frase "un cielo azul", "azul" es un adjetivo descriptivo que califica el sustantivo "cielo".</li>
+            <li><strong>Variedad:</strong> Existen numerosos adjetivos descriptivos que abarcan una amplia gama de propiedades, como colores, tamaños, formas, texturas, estados emocionales, cualidades físicas, entre otros.</li>
+            <li><strong>Ubicación:</strong> Generalmente se colocan antes del sustantivo, aunque en algunos casos pueden seguirlo.</li>
+        </ul>
+
+        <p>¡Explora algunos ejemplos a continuación para comprender mejor su impacto!</p>
+        
+        <div class="example">
+            <p>Ejemplos de adjetivos descriptivos:</p>
+            <ul>
+                <li>Una flor hermosa.</li>
+                <li>Un perro juguetón.</li>
+                <li>Una montaña imponente.</li>
+                <li>Una película emocionante.</li>
+                <li>Una noche estrellada.</li>
+                <li>Un vestido elegante.</li>
+                <li>Un árbol frondoso.</li>
+                <li>Un mar sereno.</li>
+                <li>Una melodía armoniosa.</li>
+                <li>Un coche rápido.</li>
+            </ul>
+        </div>
+    </section>
+
+<div class="imagen">
+<img src="https://www.lifeder.com/wp-content/uploads/2020/12/adjetivos-descriptivos-lifeder-min.jpg" alt="Ejemplo 1">
+  </div>
+
+    <section id="types">
+        <h2>Tipos de Adjetivos Descriptivos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adjetivos de Color</td>
+                    <td>Describen el color de un objeto o sustantivo.</td>
+                </tr>
+                <tr>
+                    <td>Adjetivos de Tamaño</td>
+                    <td>Indican las dimensiones o el tamaño relativo de un sustantivo.</td>
+                </tr>
+                <tr>
+                    <td>Adjetivos de Forma</td>
+                    <td>Expresan la forma característica de un objeto o sustantivo.</td>
+                </tr>
+                <!-- Puedes agregar más tipos según sea necesario -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="examples">
+        <h2>Ejemplos</h2>
+        <div class="container">
+            <!-- Contenedores con información -->
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. ¿Cuál es la definición de un adjetivo descriptivo?</p>
+                <label>
+                    <input type="radio" name="q1" value="a"> a) Describe un lugar
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="b"> b) Añade información que califica o caracteriza al sustantivo
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="c"> c) Es un adverbio
+                </label>
+            </div>
+
+            <div class="question">
+                <p>2. ¿Cuál es un ejemplo de adjetivo descriptivo?</p>
+                <input type="text" name="q2" placeholder="Tu respuesta">
+            </div>
+
+            <div class="question">
+                <p>3. ¿Dónde se colocan generalmente los adjetivos descriptivos?</p>
+                <label>
+                    <input type="radio" name="q3" value="a"> a) Después del sustantivo
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="b"> b) Antes del sustantivo
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="c"> c) No tienen una ubicación fija
+                </label>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Comprobar respuestas</button>
+        </form>
+        <div id="feedback"></div>
+    </section>
+
+<!-- Agrega esto al final de tu cuerpo HTML -->
+
+<section id="comments">
+    <h2>Comentarios</h2>
+    <div id="comment-list"></div>
+    <div>
+        <label for="user-name">Nombre:</label>
+        <input type="text" id="user-name" placeholder="Tu nombre">
+
+        <label for="new-comment">Comentario:</label>
+        <textarea id="new-comment" placeholder="Escribe tu comentario..."></textarea>
+
+        <button onclick="addComment()">Agregar Comentario</button>
+    </div>
+</section>
+
+
+    <script>
+     function checkAnswers() {
+    // Obtener las respuestas del usuario
+    const answer1 = document.querySelector('input[name="q1"]:checked');
+    const answer2 = document.querySelector('input[name="q2"]');
+    const answer3 = document.querySelector('input[name="q3"]:checked');
+
+    // Verificar si todas las preguntas han sido respondidas
+    if (answer1 && answer2.value.trim() !== '' && answer3) {
+        // Verificar las respuestas
+        const correctAnswers = {
+            q1: 'b',
+            q2: 'Una flor hermosa', // Puedes cambiar esto según la respuesta esperada
+            q3: 'b'
+        };
+
+        let correctCount = 0;
+
+        if (answer1.value === correctAnswers.q1) {
+            correctCount++;
+        }
+
+        if (answer2.value.trim().toLowerCase() === correctAnswers.q2.toLowerCase()) {
+            correctCount++;
+        }
+
+        if (answer3.value === correctAnswers.q3) {
+            correctCount++;
+        }
+
+        // Mostrar retroalimentación
+        const feedbackDiv = document.getElementById('feedback');
+        feedbackDiv.innerHTML = `Has respondido correctamente ${correctCount} de 3 preguntas.`;
+
+    } else {
+        // Si no todas las preguntas han sido respondidas, mostrar un mensaje de error
+        const feedbackDiv = document.getElementById('feedback');
+        feedbackDiv.innerHTML = 'Por favor, responde todas las preguntas.';
+    }
+}
+
+// Función para agregar comentarios
+function addComment() {
+    var userName = document.getElementById("user-name").value;
+    var newComment = document.getElementById("new-comment").value;
+
+    // Validar que ambos campos estén completos
+    if (userName.trim() !== "" && newComment.trim() !== "") {
+        var commentList = document.getElementById("comment-list");
+        var commentElement = document.createElement("div");
+        commentElement.innerHTML = `<strong>${userName}:</strong> ${newComment}`;
+        commentList.appendChild(commentElement);
+
+        // Limpiar los campos después de agregar
+        document.getElementById("user-name").value = "";
+        document.getElementById("new-comment").value = "";
+    } else {
+        // Mostrar mensaje de error si algún campo está vacío
+        alert("Por favor, completa ambos campos antes de agregar el comentario.");
+    }
+}
+
+
+    </script>
+</body>
+</html>
